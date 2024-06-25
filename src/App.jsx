@@ -1,13 +1,18 @@
 import React from "react"
 import './App.css'
-import Tiles from "./TileData"
+import TileData from "./TileData"
 import Tile from "./Tile"
 
 function App() {
-  const [tiles, setTiles] = React.useState(Tiles)
+  const [tiles, setTiles] = React.useState(TileData)
   
   const tileElements = tiles.map(tile => (
-      <Tile key={tile.id} side={tile.on} />
+      <Tile 
+      key={tile.id} 
+      sideStatus={tile.sideStatus}
+      emoji={tile.emojiSide}
+      word={tile.wordSide} 
+      />
   ))
   
   return (

@@ -9,4 +9,7 @@
   display: inline-block;
   margin-right: 4px;
   border-radius: 5px;
+  background-color:darkgrey;
+  text-align: center;
+  font-size: 1.2rem;
 }

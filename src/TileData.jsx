@@ -1,26 +1,38 @@
 export default [
     {
         id: 1,
-        on: true
+        sideStatus: true,
+        emojiSide: "🐄",
+        wordSide: "Cow",
     },   
     {
         id: 2,
-        on: false
+        sideStatus: true,
+        emojiSide: " 🍎",
+        wordSide: "Apple",
     },   
     {
         id: 3,
-        on: true
+        sideStatus: true,
+        emojiSide: "👽",
+        wordSide: "Alien",
     },   
     {
         id: 4,
-        on: true
+        sideStatus: true,
+        emojiSide: "☂️",
+        wordSide: "Umbrella",
     },   
     {
         id: 5,
-        on: false
+        sideStatus: true,
+        emojiSide: "🦎",
+        wordSide: "Lizard",
     },   
     {
         id: 6,
-        on: false
+        sideStatus: true,
+        emojiSide: "🦔",
+        wordSide: "Hedgehog",
     },   
 ]
