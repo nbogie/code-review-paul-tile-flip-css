@@ -4,6 +4,13 @@
 :root {
     font-size: calc(1vw);
 }
+main {
+    /* centre the contents of the main element horizontally */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .tileGrid {
     display: flex;
     flex-wrap: wrap;
