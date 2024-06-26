@@ -18,7 +18,7 @@ function App() {
     return (
         <main>
             <h1>What is that called?</h1>
-            {tileElements}
+            <div className="tileGrid">{tileElements}</div>
         </main>
     );
 }

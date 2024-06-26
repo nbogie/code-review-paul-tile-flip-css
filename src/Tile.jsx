@@ -10,7 +10,11 @@ export default function Tile(props) {
     }
 
     return (
-        <div className="tile" key={props.id} onClick={toggle}>
+        <div
+            className={"tile " + (sideStatus ? "emoji" : "text")}
+            key={props.id}
+            onClick={toggle}
+        >
             <p className="text">{side}</p>
         </div>
     );
